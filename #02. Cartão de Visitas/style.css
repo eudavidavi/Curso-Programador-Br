@@ -1,0 +1,45 @@
+#cartao{
+	width: 400px;
+	height: 200px;
+	background-image: url("./images/bg.png");
+	background-size: 400px 200px;
+	box-sizing: border-box;
+}
+
+#nome{
+	width: 250px;
+	height: 40px;
+	margin-left: 15px;
+	margin-top: 15px;
+
+	font-variant: small-caps;
+	font-family: Inconsolata;
+	font-size: 30px;
+
+}
+
+#lista_contato{
+	margin-left:15px;
+	margin-top: 5px;
+	width: 200px;
+	height: 120px;
+
+	list-style-position: inside;
+	font-family: Inconsolata;
+}
+
+ul{
+	padding: 0;
+}
+
+#instagram{
+	list-style-image: url("./images/insta.png");
+}
+
+#twitter{
+	list-style-image:url("./images/twitter.png");
+}
+
+#youtube{
+	list-style-image: url("./images/youtube.png");
+}
