@@ -1,3 +1,6 @@
-var saudacao = "Olá Mundo";
+// Atribuição +=
 
-console.log(saudacao);
+var num = 4;
+console.log(num);
+num += 20
+console.log(num);
