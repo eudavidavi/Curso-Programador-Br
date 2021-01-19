@@ -1,5 +1,4 @@
 /*
-
 + Adição
 - Subtração
 * Muliplicação
@@ -7,10 +6,9 @@
 % Módulo
 ++ Incremento: Diferença entre "++"" antes e depois.
 -- Decremento
-
 */
 
-var num1 = 7
+var num1 = 15
 var num2 = 4
 var resSoma = num1 + num2
 var resSub = num1 - num2
