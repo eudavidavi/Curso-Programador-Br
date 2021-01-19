@@ -3,7 +3,7 @@
 //Estrutura do Operador >> condição ? true : false
 
 //EXEMPLO: Se idade maior que 18, pode, menor, não pode.
-var idade = 15;
+var idade = 13;
 
 
 //Operador em ação
