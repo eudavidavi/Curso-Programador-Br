@@ -1,3 +1,4 @@
+//Condicional IF
 var idade = 19
 
 if (idade >=18)
