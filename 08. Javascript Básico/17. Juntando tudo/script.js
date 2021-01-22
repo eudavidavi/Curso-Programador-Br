@@ -1,4 +1,4 @@
-//Lista: Nome do aluno - nota 1 - nota 2 - media - Aprovado
+//Exercício proposto: Criar uma lista com "Nome do aluno - nota 1 - nota 2 - media - Aprovado"
 
 var nomes = ["João", "Maria", "Davi"];
 var nota1 = [7, 10, 6];
