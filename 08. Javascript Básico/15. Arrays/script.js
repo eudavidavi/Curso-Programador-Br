@@ -19,14 +19,14 @@ for (i = 0; i < vetor.length; i++){
     console.log(vetor[i])
 };
 
-//Forma resumida de fazer o for de cima: "in" pega o índice, "of" pega o elemento 
+//Forma resumida de fazer o for de cima
 
-//in
+//in pega o índice
 for (var i in vetor){
     console.log(i)
 };
 
-//of
+//of pega o elemento 
 for (var i of vetor){
     console.log(i)
 };
