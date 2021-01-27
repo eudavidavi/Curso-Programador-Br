@@ -1,0 +1,1 @@
+//Construtor: criar objeto a partir de uma função
