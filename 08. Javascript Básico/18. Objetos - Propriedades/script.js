@@ -23,3 +23,8 @@ var teste = "umTeste";
 objeto[teste] = "oTeste";
 
 console.log(objeto);
+
+//Adicionar objeto vazio em uma variável
+
+var novoObjeto = new Object();
+console.log(novoObjeto);
