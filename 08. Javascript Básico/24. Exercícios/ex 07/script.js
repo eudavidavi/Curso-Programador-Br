@@ -1,15 +1,12 @@
-var data = new Date;
-var data2 = new Date(2020, 1, 20, 11, 20);
+/* Gabarito
+// Escreva uma função que receba um objeto e imprima suas propriedades
+function propriedades(object){
+    for(let propriedade in object){
+        console.log(propriedade)
+    }
+}
 
-console.log(data);
-console.log(data2);
+var pessoa = {nome: "José", idade:35, altura: 1.80}
 
-//Métodos para se pegar uma data: getFullYear, getMinutes,...
-
-console.log(data2.getUTCFullYear());
-
-//plus: Pegar o dia da semana por índice de array
-var dias = ["dom", "seg", "ter", "qua", "qui", "sex","sab"];
-
-console.log(data.getDay());
-console.log(dias[data.getDay()]);
+propriedades(pessoa)
+*/

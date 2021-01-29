@@ -1,15 +1,18 @@
-var data = new Date;
-var data2 = new Date(2020, 1, 20, 11, 20);
+5.Escreva uma função que receba um número e imprima se ele é par ou ímpar 
+function parOuImpar (a){
+  a%2 == 0 ? console.log("par") : console.log("impar");
+}
+parOuImpar(4);
+//--------------------------------------------------
 
-console.log(data);
-console.log(data2);
-
-//Métodos para se pegar uma data: getFullYear, getMinutes,...
-
-console.log(data2.getUTCFullYear());
-
-//plus: Pegar o dia da semana por índice de array
-var dias = ["dom", "seg", "ter", "qua", "qui", "sex","sab"];
-
-console.log(data.getDay());
-console.log(dias[data.getDay()]);
+/* Gabarito
+function parOuImpar(num){
+    if(num%2 == 0){
+        console.log("par")
+    }else{
+        console.log("impar")
+    }
+}
+ const maior = maiorNum([9,25,3,20,32,18])
+ parOuImpar(maior)
+*/

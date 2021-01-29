@@ -1,15 +1,23 @@
-var data = new Date;
-var data2 = new Date(2020, 1, 20, 11, 20);
+/*6. Escreva um programa que vá de 0 a 100 e imprima o número na tela caso não seja múltiplo de 4. Para cada número que seja múltiplo de 4 imprima "pi" no lugar
+for (i=0 ; i<= 100; i++){
+  if (i%4 != 0){
+    console.log(i)
+  } else {
+    console.log("pi")
+  }
+}*/
+//--------------------------------------------------
 
-console.log(data);
-console.log(data2);
-
-//Métodos para se pegar uma data: getFullYear, getMinutes,...
-
-console.log(data2.getUTCFullYear());
-
-//plus: Pegar o dia da semana por índice de array
-var dias = ["dom", "seg", "ter", "qua", "qui", "sex","sab"];
-
-console.log(data.getDay());
-console.log(dias[data.getDay()]);
+/*Gabarito
+function multiplosDe4(){
+    for(let index =0; index <=100; index++){
+        if(index % 4 == 0){
+            console.log("pi")
+        }else{
+            console.log(index)
+        }
+    }
+}​
+​
+​multiplosDe4()
+*/

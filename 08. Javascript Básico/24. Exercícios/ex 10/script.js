@@ -1,15 +1,27 @@
-var data = new Date;
-var data2 = new Date(2020, 1, 20, 11, 20);
+/*10. Escreva um programa que imprima o seguinte padrão
+*
+* *
+* * *
+* * * *
+* * * * *
+*/
 
-console.log(data);
-console.log(data2);
 
-//Métodos para se pegar uma data: getFullYear, getMinutes,...
+var asterisco = ""
+for (i=1; i<=5; i++){
+  asterisco += "*";
+  console.log(asterisco);
+}
 
-console.log(data2.getUTCFullYear());
-
-//plus: Pegar o dia da semana por índice de array
-var dias = ["dom", "seg", "ter", "qua", "qui", "sex","sab"];
-
-console.log(data.getDay());
-console.log(dias[data.getDay()]);
+/*Gabarito
+function escada(altura){
+    for(let i = 1; i <=altura;i++){
+        let string = ""
+        for(let j =1 ;j<= i; j++){
+            string +="* "
+        }
+        console.log(string)
+    }
+}
+// escada(25)
+*/

@@ -1,15 +1,17 @@
-var data = new Date;
-var data2 = new Date(2020, 1, 20, 11, 20);
+//4. Escreva uma função que receba um Array com 5 números e retorne a média deles
+function mediaDosCinco ([a, b, c, d, e]){
+  return (a+b+c+d+e)/5
+}
 
-console.log(data);
-console.log(data2);
+console.log(mediaDosCinco([1,2,3,4,5]))
+//--------------------------------------------------
 
-//Métodos para se pegar uma data: getFullYear, getMinutes,...
-
-console.log(data2.getUTCFullYear());
-
-//plus: Pegar o dia da semana por índice de array
-var dias = ["dom", "seg", "ter", "qua", "qui", "sex","sab"];
-
-console.log(data.getDay());
-console.log(dias[data.getDay()]);
+/*Gabarito
+function media(lista){
+    var total = 0;
+    for(let num of lista){
+        total +=num
+    }
+    return total / lista.length
+}
+*/

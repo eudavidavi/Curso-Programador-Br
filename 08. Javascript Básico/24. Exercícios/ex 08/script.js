@@ -1,15 +1,26 @@
-var data = new Date;
-var data2 = new Date(2020, 1, 20, 11, 20);
+/*Escreva uma função que receba uma data e retorne um objeto com as propriedades dia, mês e ano Referentes a essa data.
 
-console.log(data);
-console.log(data2);
+function data(d){
+    var meses = ['Janeiro',
+    'Fevereiro',
+    'Março',
+    'Abril',
+    'Maio',
+    'Junho',
+    'Julho',
+    'Agosto',
+    'Setembro',
+    'Outubro',
+    'Novembro',
+    'Dezembro']
+   return {
+        dia:d.getDate(),
+        mes: meses[d.getMonth()],
+        ano: d.getFullYear()
+    }
+}
 
-//Métodos para se pegar uma data: getFullYear, getMinutes,...
-
-console.log(data2.getUTCFullYear());
-
-//plus: Pegar o dia da semana por índice de array
-var dias = ["dom", "seg", "ter", "qua", "qui", "sex","sab"];
-
-console.log(data.getDay());
-console.log(dias[data.getDay()]);
+console.log(data(new Date(Date.now())))
+*/
+​//*------------------------------------------------------------------------------------------------
+​
