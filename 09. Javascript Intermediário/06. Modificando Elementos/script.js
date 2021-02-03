@@ -5,3 +5,6 @@
 //innerText > Mostra so o texto que é visto
 
 //Pode modificar um atributo p.className = ""
+
+let title = document.getElementById("titulo");
+document.write(title);
