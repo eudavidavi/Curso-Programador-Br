@@ -1,6 +1,6 @@
 //Acessar elementos HTML por JS
 // ID
-let title = document.getElementById("titulo");
+document.getElementById("titulo");
 
 // Classes
 document.getElementsByClassName("naoLinguagem");
