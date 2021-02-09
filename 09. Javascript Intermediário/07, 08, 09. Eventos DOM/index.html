@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS DOM</title>
+    
+    
+</head>
+<body>
+    <h1>Eventos DOM</h1>
+    <p onclick="this.style.color = 'blue'">Clique no mouse e muda a cor do texto.</p>
+    <input placeholder="Borda vermelha" onchange="this.style.borderColor = 'red'"><br><br>
+    <h2>Sub-Título</h2>
+    <input type="text" oninput="mudarTexto(this)">
+    
+    <script>
+        function mudarTexto(i){
+            let h2 = document.getElementsByTagName("h2")
+
+            h2.innerText = i.value
+
+        }
+    </script>
+</body>
+</html>
