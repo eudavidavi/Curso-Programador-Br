@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EVENTOS DOM</title>
-    
-    
+    <title>EVENTOS DOM</title>  
 </head>
+
 <body>
     <h1>Eventos DOM</h1>
+    <strong><h2>1 de 3</h2></strong>
+    
     <p onclick="this.style.color = 'blue'">Clique no mouse e muda a cor do texto.</p>
-    <input placeholder="Borda vermelha" onchange="this.style.borderColor = 'red'"><br><br>
-    <h2>Sub-Título</h2>
-    <input type="text" oninput="mudarTexto(this)">
+    
+    <input placeholder="Borda vermelha" onchange="this.style.borderColor = 'red'"><br>
+    
+    <h2 id="sub">Sub-Título</h2>
+    <input type="text" id="caixa" oninput="mudarTexto()">
+    
+    <hr>
+
+<!-- Função onMouseOver -->
+    <strong><h2>2 de 3</h2></strong>
+    <input type="button"
+    onmouseover="grande(this)" 
+    onmouseout="normal(this)"
+    value="Clique aqui">
     
     <script>
-        function mudarTexto(i){
-            let h2 = document.getElementsByTagName("h2")
+        function mudarTexto(){
+            let h2 = document.getElementById("caixa").value;
 
-            h2.innerText = i.value
-
-        }
+            document.getElementById("sub").innerText = h2;   
+       }
     </script>
+    
 </body>
 </html>
