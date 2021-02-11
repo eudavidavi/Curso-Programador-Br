@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>EVENTOS DOM</title>  
 </head>
 
 <body>
     <h1>Eventos DOM</h1>
-    <strong><h2>1 de 3</h2></strong>
+    <h2>OnClick</h2>
     
     <p onclick="this.style.color = 'blue'">Clique no mouse e muda a cor do texto.</p>
-    
     <input placeholder="Borda vermelha" onchange="this.style.borderColor = 'red'"><br>
     
     <h2 id="sub">Sub-Título</h2>
     <input type="text" id="caixa" oninput="mudarTexto()">
-    
-    <hr>
 
-<!-- Função onMouseOver -->
-    <strong><h2>2 de 3</h2></strong>
-    <input type="button"
-    onmouseover="grande(this)" 
-    onmouseout="normal(this)"
-    value="Clique aqui">
+    <h2>OnMouseOver</h2>
+   
+    <p  onmouseover="this.style.fontSize = '1.25em'"
+        onmouseout="this.style.fontSize = '1em'">
+        Texto de pequeno passa para grande
+    </p>
     
     <script>
         function mudarTexto(){
