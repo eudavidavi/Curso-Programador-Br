@@ -10,13 +10,17 @@
 <body>
     <h1>Eventos DOM</h1>
     <h2>OnClick</h2>
-    
     <p onclick="this.style.color = 'blue'">Clique no mouse e muda a cor do texto.</p>
-    <input placeholder="Borda vermelha" onchange="this.style.borderColor = 'red'"><br>
+    <hr>
     
+    <h2>OnChange</h2>
+    <input placeholder="Altere algo e a borda ficará vermelha" onchange="this.style.borderColor = 'red'"><br>
+    <hr>
+
     <h2 id="sub">OnInput</h2>
     <input type="text" id="caixa" oninput="mudarTexto()">
-
+    <hr>
+    
     <h2>OnMouseOver & OnMouseOut</h2>
     <p  onmouseover="this.style.fontSize = '1.25em'"
         onmouseout="this.style.fontSize = '1em'">
